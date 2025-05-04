@@ -1,6 +1,6 @@
 import { Menu, School } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import img from '/logoo.jpeg';
+import img from '/z.png';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -57,7 +57,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto hidden md:flex justify-between items-center gap-10 h-full">
         <div className="flex items-center gap-2">
           <Link to="/">
-            <img src={img} alt="" height={40} width={109} style={{marginLeft:"20px"}}/>
+            <img src={img} alt="" height={10} width={60} style={{marginLeft:"20px"}}/>
+            
           </Link>
           
           {/* Search Form in Navbar */}
